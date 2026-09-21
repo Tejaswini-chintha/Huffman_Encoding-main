@@ -113,4 +113,4 @@ def decompress_file(input_path):
     print(f"Decompressed '{input_path}' to '{output_path}'")
 if __name__ == "__main__":
     compress_file("example.txt")                      # compress input.txt → input_compressed.bin
-    decompress_file("input_compressed.bin")
+    decompress_file("example_compressed.bin")
